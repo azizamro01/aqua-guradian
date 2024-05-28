@@ -1,0 +1,28 @@
+{
+    "mqtt_topic":{
+        "alert": "test/alert",
+        "cylinder": "test/cyilnder",
+        "ping": "ping",
+        "ultra": "test/ultra",
+        "stream_cam1": "test/stream/cam1",
+        "stream_cam2": "test/stream/cam2",
+        "cylinder_control":"test/cylinder/control"
+    },
+    "datasource":{
+        "ip": "localhost",
+        "port": "5432",
+        "username":"aziz",
+        "password":"root",
+        "database": "srs"
+    },
+    "broker":{
+        "ip": "192.168.1.102",
+        "username": "admin",
+        "password": "ahq123"
+    },
+    "camera":{
+        "pool_camera":0,
+        "side_camera":2
+    }
+
+}
